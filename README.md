@@ -1,10 +1,10 @@
 # Image-Compressor
 This is an Image Compression example using K-Means Clustering algorithm. Read more about it on [Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering). The input image is read as a three-dimensional matrix
-whose first two indices identify a pixel position and whose last index represents
-Red, Green or Blue. After finding the top K colors to represent the image, each pixel
+whose first two indices identify the pixel position and whose last index represents
+Red, Green or Blue color values. After finding the top K colors to represent the image, each pixel
 position is assigned to its closest centroid. This allows to represent the original 
 image using the centroid assignments of each pixel. In this way, the number of bits 
-that are required to describe the image is reduced significantly.
+that are required to describe the image is reduced significantly and we get the resultant compressed image.
 
 These are few examples of compressed images -
 
